@@ -1,3 +1,6 @@
-dataset/
 __pycache__/
 .ipynb_checkpoints/
+*.pyc
+dataset/PennTreeBank/
+studentID_name_surname/
+studentID_name_surname.zip
