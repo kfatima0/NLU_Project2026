@@ -1,0 +1,77 @@
+[
+ {
+  "name": "lora_r16_a32_lr5e4",
+  "rank": 16,
+  "alpha": 32,
+  "lr": 0.0005,
+  "lora_dropout": 0.05,
+  "trainable": 884736,
+  "best_epoch": 5,
+  "dev_ppl": 23.72,
+  "test_ppl": 21.58,
+  "train_hist": [
+   38.66,
+   29.18,
+   27.34,
+   26.23,
+   25.43
+  ],
+  "dev_hist": [
+   27.96,
+   25.9,
+   24.79,
+   24.24,
+   23.72
+  ]
+ },
+ {
+  "name": "lora_r32_a64_lr5e4",
+  "rank": 32,
+  "alpha": 64,
+  "lr": 0.0005,
+  "lora_dropout": 0.05,
+  "trainable": 1769472,
+  "best_epoch": 5,
+  "dev_ppl": 22.94,
+  "test_ppl": 20.87,
+  "train_hist": [
+   36.07,
+   27.98,
+   26.15,
+   24.99,
+   24.12
+  ],
+  "dev_hist": [
+   26.79,
+   24.92,
+   24.06,
+   23.4,
+   22.94
+  ]
+ },
+ {
+  "name": "lora_r32_a64_lr3e4",
+  "rank": 32,
+  "alpha": 64,
+  "lr": 0.0003,
+  "lora_dropout": 0.05,
+  "trainable": 1769472,
+  "best_epoch": 5,
+  "dev_ppl": 23.82,
+  "test_ppl": 21.64,
+  "train_hist": [
+   39.31,
+   29.37,
+   27.49,
+   26.35,
+   25.52
+  ],
+  "dev_hist": [
+   28.09,
+   25.96,
+   25.04,
+   24.38,
+   23.82
+  ]
+ }
+]
